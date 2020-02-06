@@ -1,0 +1,24 @@
+# CPRG 210: Day 2
+## Background and Resources
+- CSS
+  - Video: [Why is CSS So Weird?](https://www.youtube.com/watch?v=aHUtMbJw8iA)
+- CSS Images
+  - Article: [background-image](https://css-tricks.com/almanac/properties/b/background-image/)
+- Flexbox
+  - Reference: [Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - Learning Game: [Flexbox Froggy](https://flexboxfroggy.com/)
+  - Course: [What the Flexbox ?!](https://flexbox.io/)
+    - Take this course at your own pace. It's not required but is a great intro to Flexbox.
+    - email address required but the course is free
+  - Article: [The `flex` property](https://css-tricks.com/almanac/properties/f/flex/)
+- Colour
+  - Video: [Reading Colour Hexcodes](https://www.youtube.com/watch?v=eqZqx6lRPe0)
+  - Tool: [Color Inspo](https://colorsinspo.com/) helps you pick nice colours
+  - [Colour Contrast Checker](https://contrast-ratio.com/)
+- Typography
+  - Article: [On Web Typography](https://alistapart.com/article/on-web-typography/)
+  - Article: [Font Fallbacks](https://css-tricks.com/css-basics-fallback-font-stacks-robust-web-typography/)
+  - Article: [Typography for Developers](https://css-tricks.com/typography-for-developers/)
+  - Article: [Icon Fonts are Awesome](https://css-tricks.com/examples/IconFont/)
+  - Reference: [List of all official HTML entities](https://html.spec.whatwg.org/multipage/)
+  - Advanced: [Fluid Typography](https://css-tricks.com/snippets/css/fluid-typography/)
