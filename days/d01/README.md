@@ -1,4 +1,8 @@
 # Day 1
+## Background Resources
+- Video: [HTML Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=UB1O30fR-EE)
+- Video: [CSS Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=yfoY53QXEnI)
+
 ## Activity: Environment Setup
 1. Install the latest versions of:
 - Firefox (preferrably Developer or Nightly versions)
