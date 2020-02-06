@@ -12,9 +12,10 @@ In this exercise you will build the first part of a web site for a travel agency
 - On the next line, display some travel pictures (there are some in the media folder if you don’t have time to find any free images online).
 - On the next line, display two images that are links to the “contact.html” and “register.html” pages (wrap them inside an anchor tag). There are two images in the media folder that would work for this.
 - In the contact.html page, use lists and paragraph tags to display the contact information for the agency and the individual agents.
-- In the register page, just have a heading that indicates that the page is under construction.
-- At the bottom of the index.html page display a copyright message with a copyright symbol.
-- Customize, experiment, and build extra features if you have time.
+- In the register page, just have a heading that indicates that the page is under construction. Try to center this heading horizontally *and vertically* in the vieport. There are many ways to do this.
+- At the bottom of the index.html page display a copyright message with a copyright symbol (hint: search for html entities and/or icon fonts).
+- Set up borders on some of your tags.
+- Customize, experiment, and build extra features if you have time. Use semantic tags when possible.
 
 ## Feedback:
 Your instructor will review this exercise with you the next day.

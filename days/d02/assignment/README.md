@@ -7,7 +7,9 @@ This assignment does not need to be handed in. Your instructor will review it th
 ## Directions
 In this exercise you will build the first part of a web site for a travel agency. This page will use basic HTML tags, and will be enhanced each day to add more complex features as you learn them. It will be the main deliverable that you will hand in for marking at the end of the course.
 - In the index.html page, use HTML5 sematic elements to format the page. 
-- In the register page, set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, you can use the test script “bouncer.php” in the exercises directory. Your instructor will demonstrate how to start an Apache web server and copy this file into the server’s directory and start the web server so your form can call the bouncer.php script. In your form tag you must have an action attribute set to “http://localhost/bouncer.php”.
+- Each page should have the same global navigation. Use `nav` and `ul` to link each page to each other.
+- Define style settings that will set the font type, size, and color of the text in your tags. Experiment with different settings for different tag types.
+- On the main page, create a hero section. Use CSS to set a background image for the page (ensure that the image is light/dark enough to use as a background image).
 
 ## Feedback:
 Your instructor will review this exercise with you the next day.
