@@ -6,6 +6,7 @@
 - Flexbox patterns
   - navigation
   - cards
+  - galleries
 
 ## CSS Colour
 Resources:
