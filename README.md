@@ -3,7 +3,7 @@
 ### HTML and CSS
 - [Day 1: HTML and Box Model Fundamentals](days/d01/README.md)
 - [Day 2: Colour, Typography and Responsive Patterns with Flexbox](days/d02/README.md)
-- Day 3: Forms, CSS Grid
+- Day 3: Forms, CSS Grid and Implicit Design
 
 ### Git and GitHub
 - Day 1:
