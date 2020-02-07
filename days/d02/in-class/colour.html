@@ -3,16 +3,32 @@
 <head>
   <title>Colour Tests</title>
   <style>
+
+    /* In general, avoid use of ids in css. Instead, use classes. */
+    #home-page {
+      background-color: skyblue;
+    }
+
+    .new-color {
+      background-color: teal;
+    }
+    body {
+      background-color: #ffb174;
+    }
+
     div {
       width: 50vmin;
       height: 50vmin;
-      margin: 24vmin auto;
+      margin: 200px auto;
 
-      border: 1px solid rebeccapurple;
+      border: 10px solid #b31e6f;
+      background-color: #22eaaa;
     }
+
+
   </style>
 </head>
-<body>
-  <div></div>
+<body id="home-page" class="new-color">
+  <div class="new-color"></div>
 </body>
 </html>
