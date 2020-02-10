@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Basic Grid</title>
+  <style>
+    main {
+      width: 90vmin;
+      /* height: 90vmin; */
+      margin: auto;
+
+      display: grid;
+
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      /* grid-template-columns: repeat(3,1fr 2fr); */
+      grid-auto-rows: 1fr;
+
+      border: 1px solid black;
+    }
+
+    article {
+      border: 1px solid rebeccapurple;
+      display: flex;
+    }
+
+    article > * {
+      margin: auto;
+    }
+
+    .wide {
+      grid-column: span 2;
+    }
+
+    .tall {
+      grid-row: span 2;
+    }
+
+    .first {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+    .full-width {
+      grid-column: 1 / -1;
+    }
+
+  </style>
+</head>
+<body>
+  <main>
+    <article class="full-width"><p>1</p></article>
+    <article class="wide"><p>2</p></article>
+    <article class="tall"><p>3</p></article>
+    <article class="tall wide"><p>4</p></article>
+    <article><p>5</p></article>
+
+  </main>
+</body>
+</html>
