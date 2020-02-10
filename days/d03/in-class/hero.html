@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400" rel="stylesheet">
   <title>Example Hero Image</title>
   <style>
     /* Reset */
@@ -15,16 +16,41 @@
     }
 
     /* Font */
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Raleway', sans-serif;
+    }
+    
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
 
     /* Size hero section (full viewport) */
     header {
-      border: 1px solid black;
+      display: flex;
+      height: 100vh;
+
     }
 
     /* Add background image */
+    header {
+      background-image: 
+        linear-gradient(rgba(0,0,0,.5), transparent 35%),
+        url('https://picsum.photos/id/1048/1500/1500');
+      background-repeat: no-repeat;
+
+      background-size: contain;
+      background-size: cover;
+
+      background-position: center;
+    }
 
     /* Style heading */
+    h1 {
+      font-size: 72px;
+      text-align: center;
 
+      margin: auto;
+    }
 
     /* Make it pretty */
     main {
