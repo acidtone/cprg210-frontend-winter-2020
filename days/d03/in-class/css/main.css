@@ -8,7 +8,6 @@
 
 body {
   margin: 0;
-  font-size: 7em;
 }
 
 /* Font */
@@ -20,3 +19,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Form */
+
+form {
+  border: 1px solid black;
+  max-width: 80ch;
+  margin: auto;
+}
