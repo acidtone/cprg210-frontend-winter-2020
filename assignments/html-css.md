@@ -30,7 +30,6 @@ This assignment will be marked out of 30 points and will be worth 50% of the fro
 - In the register page, set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, try using a free static form service.
 - Layout a contact form using flexbox or css grid. (hint: there are many grid examples available on [Grid by Example](https://gridbyexample.com/))
 
-
 ## Marking Rubric
 Hand in your source code files by saving them in a .zip file and dropping it into the drop folder on Brightspace.
 
