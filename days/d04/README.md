@@ -18,7 +18,7 @@
 what works well and what doesn't work well.
     - What conventions do you see?
     - Are there any violations in convention?
-    - Are they effectively creating visual hierarchy? Why/why not?
+- What forms, cards patterns, features are there that you can integrate into your assignment?
 
 ## Live code: responsive patterns
 - Global page layouts
