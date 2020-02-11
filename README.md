@@ -11,7 +11,7 @@
 - [Day 4: Global layouts, Media Queries, open lab time](days/d04/README.md)
 
 ### Git and GitHub
-- Day 1: Command line, Git basics and GH Pages
+- [Day 1: Command line, Git basics and GH Pages](days/d05/README.md)
 
 ### Javascript
 - Day 1:
