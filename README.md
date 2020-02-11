@@ -1,4 +1,8 @@
 # CPRG 210 Frontend
+## Assignments
+- [HTML/CSS project](assignments/html-css.md)
+- Javascript project
+
 ## Schedule
 ### HTML and CSS
 - [Day 1: HTML and Box Model Fundamentals](days/d01/README.md)
