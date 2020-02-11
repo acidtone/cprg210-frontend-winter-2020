@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Grid Layout</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+    /* Grid Styles */
+    body {
+      display: grid;
+      grid-template-columns: 1fr max-content;
+      grid-gap: 0.5em;
+    }
+
+    .full-width {
+      grid-column: 1 / -1;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        display: block;
+      }
+    }
+
+    /* Make it pretty */
+    body {
+      background-color: lightgrey;
+      margin: 1em 10vw;
+
+      font-family: 'Open Sans Condensed', Arial, Helvetica, sans-serif;
+      font-variant: small-caps;
+      font-weight: bold;
+      font-size: 36px;
+    }
+
+    header, main, aside, footer {
+      background-color: white;
+      text-align: center;
+    }  
+  </style>
+</head>
+<body>
+  <header class="full-width">Header</header>
+  <main>Page Content
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dicta voluptatum numquam illum quia laboriosam, praesentium, nisi deleniti velit iste amet alias beatae totam et dolores quas quidem, enim. Sequi quisquam repellendus fugiat recusandae minima quo alias velit, vel unde. Repudiandae eius natus ea, aspernatur modi nobis adipisci laudantium eum?</p></main>
+  <aside>Side Bar</aside>
+  <footer class="full-width">&copy; 2019</footer>
+</body>
+</html>
