@@ -27,8 +27,10 @@ what works well and what doesn't work well.
 
 ## Examples
 - See today's [spoilers](spoilers) folder for code examples.
+- Codepen: [Basic Grid Page Layout](https://codepen.io/acidtone/pen/QejVBW)
 - Codepen: [Basic Mobile First Layout](https://codepen.io/acidtone/pen/KKPrdeY)
 - Codepen: [Named Grid Areas](https://codepen.io/acidtone/pen/wvwYjJw)
+- Article: [Popular Screen Resolutions](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/)
 
 ### Media query overview
 - mobile vs desktop-first
