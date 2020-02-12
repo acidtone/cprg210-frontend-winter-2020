@@ -18,3 +18,6 @@
 - Day 2: 
 - Day 3: 
 - Day 4:
+
+## Resources
+- [Free Code Camp](https://www.freecodecamp.org/learn/)
