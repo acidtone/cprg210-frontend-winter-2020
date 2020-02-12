@@ -31,6 +31,8 @@ Quality of life cli tips
 
 ### Creating a local repo
 
+### Cloning a remote repo into a local repo
+
 **Important: Do not create a repo inside another repo**
 
 ### Activity: Fork and clone the course repo to your system
