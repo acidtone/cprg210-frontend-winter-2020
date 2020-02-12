@@ -5,30 +5,32 @@ This assignment is due Sunday, February 16th @ 5pm
 ## Value
 This assignment will be marked out of 30 points and will be worth 50% of the frontend portion of this course (25% of the total course mark).
 
-## Day 1 Requirements
+## Requirements
 - Create 3 pages named “index.html”, “register.html”, and “contact.html”.
-- In the index.html page, display an image at the top of the page that will be your travel agency logo. Next, display an “h1” heading with the text “Welcome to Travel Experts” inside it. As a challenge, see if you can find a way to make both of these display on the same line.
-- On the next line, display some travel pictures (there are some in the media folder if you don’t have time to find any free images online).
-- On the next line, display two images that are links to the “contact.html” and “register.html” pages (wrap them inside an anchor tag). There are two images in the media folder that would work for this.
-- In the contact.html page, use lists and paragraph tags to display the contact information for the agency and the individual agents.
-- In the register page, just have a heading that indicates that the page is under construction. Try to center this heading horizontally *and vertically* in the vieport. There are many ways to do this.
-- At the bottom of the index.html page display a copyright message with a copyright symbol (hint: search for html entities and/or icon fonts).
-- Set up borders on some of your tags.
-- Customize, experiment, and build extra features if you have time. Use semantic tags when possible.
 
-## Day 2 Requirements
-- In the index.html page, use HTML5 sematic elements to format the page. 
-- Each page should have the same global navigation. Use `nav` and `ul` to link each page to each other.
-- Define style settings that will set the font type, size, and color of the text in your tags. Experiment with different settings for different tag types.
-- On the main page, create a hero section. Use CSS to set a background image for the page (ensure that the image is light/dark enough to use as a background image).
+### index.html
+  - Create a [hero section](https://envato.com/blog/exploring-hero-image-trend-web-design/) at the top of the page that:
+    - is semantically marked up in a `header` tag
+    - is the full width and height of the viewport
+    - displays an `h1` heading with the text "Welcome to Travel Experts" inside it.
+    - contains a `background-image` and at least one `background-color` declaration
+  - Using an `img` tag, display a logo at the top of the page. You may also use an icon font in place of an image. 
+  - Display a gallery of travel pictures below the hero section.
+  - In a `footer` at the bottom of the page, display copyright information (hint: search for html entities and/or icon fonts to find a copyright symbol).
 
-## Day 3 Requirements
-- Using a media query, try changing your from one-column (mobile) to two-column (tablet+). Don't forget to set a `max-width` to keep your form usable on large screens.
-- Download and link to an external stylesheet page that will reset your styles to defaults (hint: normalize is a popular option)
-- Create an external stylesheet file and link it into your pages to provide custom style settings.
+### contact.html
+- Use lists and paragraph tags to display the contact information for the agency and the individual agents.
+
+### register.html
+- Set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, try using a free static form service.
+- Using a media query, try changing your form from one-column (mobile; label sits above the input field) to two-column (tablet+; labels and inputs sit side-by-side). Use `max-width` to keep your form usable on large screens.
 - Ensure that the input tags in your form all have enough contrast to be readable by all users.
-- In the register page, set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, try using a free static form service.
-- Layout a contact form using flexbox or css grid. (hint: there are many grid examples available on [Grid by Example](https://gridbyexample.com/))
+
+### Global requirements
+- Each page should have the same global navigation using `nav`, `ul`, `li` and `a` tags to link each page to each other. Include your logo somewhere in the navigation (note: it doesn't necessarily need to be in your nav list).  
+- Define style settings that will set the font family, size, and color of the text in your tags. You are free to use a font service for this.
+- Download and `link` to an external stylesheet page that will reset your styles to defaults (hint: normalize.css is a popular option)
+- Create an external stylesheet file and `link` it into your pages to provide custom style settings.
 
 ## Marking Rubric
 Hand in your source code files by saving them in a .zip file and dropping it into the drop folder on Brightspace.
