@@ -14,10 +14,10 @@
 - [Day 1: Command line, Git basics and GH Pages](days/d05/README.md)
 
 ### Javascript
-- Day 1:
-- Day 2: 
-- Day 3: 
-- Day 4:
+- [Day 1: Types, Variables and Events](days/d06/README.md)
+- Day 2: Conditionals, classList and Arrays
+- Day 3: Objects and Form Validation
+- Day 4: Functions and Callbacks
 
 ## Resources
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
