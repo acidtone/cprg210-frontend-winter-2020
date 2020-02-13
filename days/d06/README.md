@@ -55,6 +55,6 @@ Centre a `h1` element on an empty page with the text "Hello [year]!". Using a li
 If we have time... [button vs input](https://stackoverflow.com/questions/37736056/button-type-button-vs-submit).
 
 ## Proj 207 Groups
-[Assignment Details](../../assignments/proj-207/Project_Workshop_1 _CPRG 210_HTML _JavaScript.doc)
+[Assignment Details](../../assignments/proj207/Project_Workshop_1 _CPRG 210_HTML _JavaScript.doc)
 
 You will be assigned into groups of 3-4. Harvey Peters will assign the due date. It will be the 3rd week of March.

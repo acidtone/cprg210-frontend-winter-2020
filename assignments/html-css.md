@@ -1,6 +1,6 @@
 # HTML and CSS Assignment
 ## Due
-This assignment is due Sunday, February 16th @ 5pm
+This assignment is due TBD.
 
 ## Value
 This assignment will be marked out of 30 points and will be worth 50% of the frontend portion of this course (25% of the total course mark).
