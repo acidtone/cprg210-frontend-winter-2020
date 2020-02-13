@@ -22,7 +22,7 @@ This assignment will be marked out of 30 points and will be worth 50% of the fro
 - Use lists and paragraph tags to display the contact information for the agency and the individual agents.
 
 ### register.html
-- Set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, try using a free static form service.
+- Set up a form that has fields for entering and submitting customer data. Since you don’t have a server-side script to process the data, try using a free [static form service](https://css-tricks.com/a-comparison-of-static-form-providers/).
 - Using a media query, try changing your form from one-column (mobile; label sits above the input field) to two-column (tablet+; labels and inputs sit side-by-side). Use `max-width` to keep your form usable on large screens.
 - Ensure that the input tags in your form all have enough contrast to be readable by all users.
 
