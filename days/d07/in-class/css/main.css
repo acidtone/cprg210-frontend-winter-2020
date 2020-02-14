@@ -15,11 +15,11 @@ main {
 }
 
 /* Centre a single element vertically and horizontally on a page */
-body.only-child {
+.only-child {
   min-height: 100vh;
   display: flex;
 }
-body.only-child > * {
+.only-child > * {
   margin: auto;
 }
 
