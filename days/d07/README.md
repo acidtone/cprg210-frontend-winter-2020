@@ -1,4 +1,6 @@
 # CPRG 210 Day 7
+## Review spoilers from yesterday
+
 ## `<button>`
 See [button vs input](https://stackoverflow.com/questions/37736056/button-type-button-vs-submit)
 

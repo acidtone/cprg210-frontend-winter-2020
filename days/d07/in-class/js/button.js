@@ -2,6 +2,7 @@
 
 function handleClick() {
   // This function will run any time your button is clicked.
+  console.log('hello from function');
 
   // Step 2: Find the current number of times clicked (hint: try innerText) and assign it to a variable called 'currentCount'.
 
