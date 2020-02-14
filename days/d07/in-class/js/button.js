@@ -1,14 +1,21 @@
 // Step 1: declare a variable named 'counter' and assign it to the <span> element that states the number of clicks. This will be zero the first time the page loads.
 
+const counter = document.querySelector('span');
+const body = document.querySelector('body');
+
 function handleClick() {
   // This function will run any time your button is clicked.
-  console.log('hello from function');
+  console.log(counter.innerText);
 
   // Step 2: Find the current number of times clicked (hint: try innerText) and assign it to a variable called 'currentCount'.
+  let currentCount = counter.innerText;
 
   // Step 3: Increment currentCount by one
+  // currentCounter += 1;
+  currentCount++;
 
   // Step 4: Udpate the counter using the method we learned yesterday (*cough*innerText*cough*).
+  counter.innerText = currentCount;
 
   // Step 5: Using the classList API, add the class of 'active' to the to change the `background-color` of the <body> element.
 
