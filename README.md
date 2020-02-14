@@ -1,7 +1,6 @@
 # CPRG 210 Frontend
 ## Assignments
-- [HTML/CSS project](assignments/html-css.md)
-- Javascript project
+- [Individual Assignment](assignments/individual-assignment.md)
 
 ## Schedule
 ### HTML and CSS
@@ -14,10 +13,13 @@
 - [Day 1: Command line, Git basics and GH Pages](days/d05/README.md)
 
 ### Javascript
-- [Day 1: Types, Variables and Events](days/d06/README.md)
-- Day 2: Conditionals, classList and Arrays
-- Day 3: Objects and Form Validation
-- Day 4: Functions and Callbacks
+- [Day 1: Types, Variables and DOM Elements](days/d06/README.md)
+- [Day 2: Events, functions, conditionals, classList](days/d07/README.md)
+- Day 3: Form Validation
+- Day 4: 
 
 ## Resources
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
+
+### Javascript
+- [Javascript the Weird Parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
