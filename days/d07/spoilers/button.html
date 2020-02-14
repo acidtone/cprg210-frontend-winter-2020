@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click Me!</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/button.css">
+  <style>
+    .active {
+      background-color: skyblue;
+    }
+  </style>
+</head>
+<body class="only-child">
+  <main class="center-inside">
+    <button type="button" onclick="handleClick()">Click Me!</button>
+    <p>I was clicked this many times: <span>1000</span>.</p>
+    <img src="" alt="" width="200" height="200">
+  </main>
+
+  <!-- The safest place for a script is after the DOM has loaded (before the closing body tag). -->
+  <script src="js/button.js"></script>
+</body>
+</html>

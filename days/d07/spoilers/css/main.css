@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400');
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  background-color: rgba(255,255,255,.5);
+  padding: 2em;
+}
+
+/* Centre a single element vertically and horizontally on a page */
+body.only-child {
+  min-height: 100vh;
+  display: flex;
+}
+body.only-child > * {
+  margin: auto;
+}
+
+/* Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center-inside {
+  text-align: center;
+}
