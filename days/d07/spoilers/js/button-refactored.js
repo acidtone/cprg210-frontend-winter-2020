@@ -2,11 +2,10 @@ function init() {
   // Initialize our element variables
   const body = document.querySelector('body');
   const button = document.querySelector('button');
+  const counter = document.querySelector('span');
 
   button.addEventListener('click',function(evt){
     // Find the current number of times clicked (hint: try innerText) and assign it to a variable called 'currentCount'.
-    const counter = document.querySelector('span');
-
     let currentCount = counter.innerText;
 
     // Increment and udpate the counter using the method we learned yesterday (*cough*innerText*cough*).
