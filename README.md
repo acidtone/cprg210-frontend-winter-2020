@@ -15,7 +15,7 @@
 ### Javascript
 - [Day 1: Types, Variables and DOM Elements](days/d06/README.md)
 - [Day 2: Events, functions, conditionals, classList](days/d07/README.md)
-- Day 3: Form Validation
+- [Day 3: Form Validation](days/d08/README.md)
 - Day 4: 
 
 ## Resources
