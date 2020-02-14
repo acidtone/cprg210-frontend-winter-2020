@@ -28,7 +28,26 @@
 </head>
 <body class="only-child">
   <main>
-    <p id="para" class="bold italicize purple blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptatum error et deserunt inventore explicabo perferendis molestiae a saepe accusantium!</p>
+    <p id="para" class="bold italicize purple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptatum error et deserunt inventore explicabo perferendis molestiae a saepe accusantium!</p>
   </main>
+  <script>
+    console.log(para.classList);
+
+    // Returns 3
+    console.log(para.classList.length);
+
+    // Returns false
+    console.log(para.classList.contains('blue'));
+
+    // Add .blue
+    para.classList.add('blue');
+
+    // Now returns true, text turns blue (with current css source order)
+    console.log(para.classList.contains('blue'));
+
+    // Returns 4
+    console.log(para.classList.length);
+
+  </script>
 </body>
 </html>
