@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding Event Listener, Testing Form</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/form.css">
+  <style>
+  </style>
+</head>
+<body class="only-child">
+  <form action="#submitted">
+    <fieldset>
+      <legend>Top 10 Things every week! Subscribe to our newsletter.</legend>
+      <label for="email">
+        <span>Email Address</span>
+        <input id="email" id="email" type="email">
+      </label>
+      <button type="submit">Subscribe</button>
+    </fieldset>
+  </form>
+  <script>
+    // Assign form element to variable
+    const form = document.querySelector('form');
+
+    // Add an event listener
+    // The second argument is an anonymous function that is invoked whenever the form is submited. 
+    form.addEventListener('submit',function(event) {
+      // Stop the form from submitting so we can do things
+      // The 'event' object is created by the browser and has many useful methods like this one
+      event.preventDefault();
+
+      // Assign the email input to a variable
+      const email = document.querySelector('#email');
+
+      // Simple validation
+      if (email.value == '') {
+        // Sets the input to 'invalid'
+        email.setCustomValidity("Dude, email address required.")
+      } else {
+        // Sets the input to 'valid'
+        setCustomValidity('');
+
+        // Run other tests and submit.
+        // 'this' is a browser built variable that (in this case) refers to the form element.
+        this.submit();
+      }
+
+    });
+  </script>
+</body>
+</html>
