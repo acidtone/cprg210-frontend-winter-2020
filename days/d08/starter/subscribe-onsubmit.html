@@ -10,8 +10,7 @@
   </style>
 </head>
 <body class="only-child">
-  <form action="#submitted"
-  >
+  <form action="#submitted" onsubmit="validate()">
     <fieldset>
       <legend>Top 10 Things every week! Subscribe to our newsletter.</legend>
       <label for="email">
@@ -19,7 +18,7 @@
         <input id="email" type="email">
       </label>
       <!-- Step 1: Remove the onsubmit attribute and add an event listener instead (Step 2). -->
-      <button type="submit" onsubmit="validate()">Subscribe</button>
+      <button type="submit">Subscribe</button>
     </fieldset>
   </form>
   <script>
@@ -29,7 +28,7 @@
     function validate() {
       const email = document.querySelector('#email');
 
-      console.log(email.value);
+      console.log('test');
     }
 </script>
 </body>
