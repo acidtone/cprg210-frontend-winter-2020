@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/form.css">
+  <style>
+  </style>
+</head>
+<body class="only-child">
+  <!-- Step 1: Remove the onsubmit attribute and add an event listener instead (Step 2). -->
+  <form action="#submitted">
+    <fieldset>
+      <legend>Top 10 Things every week! Subscribe to our newsletter.</legend>
+      <label for="email">
+        <span>Email Address</span>
+        <input id="email" type="email">
+      </label>
+      <button type="submit">Subscribe</button>
+    </fieldset>
+  </form>
+  <script>
+    // Step 2: Declare a variable named 'form' and assign it to the form element.
+    const form = document.querySelector('form');
+
+    // Step 3: Using 'element.AddEventListener()' assign the the following function to the form's 'submit' event
+    form.addEventListener('submit', function(event) {
+      console.log(event);
+    });
+
+    // The anonymous function replaces this function expression
+
+    // const validate = function(){
+    //   console.log(this);
+    // }
+  </script>
+</body>
+</html>
