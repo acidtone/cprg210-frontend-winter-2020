@@ -1,5 +1,6 @@
 form {
   max-width: 60ch;
+  background-color: #ddd;
 }
 
 form, input {

@@ -29,8 +29,11 @@ See [UI Pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_
 ## Pseudo-elements
 - `::before`
 - `::after`
+  - handy for adding a color (:) after a label
+  - can add SVG or font icon symbols for valid (green check mark) and invalid (red x) fields
 
 ## HTML5 Form Validation
+Frontend validation is all about UX, not security (that has to be done on the backend). HTML5 gives us nice defaults for most validation use cases.
 - `type`
   - `email`
   - `number`
@@ -44,7 +47,10 @@ See [UI Pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_
 - `pattern` uses regular expressions
 
 ## Activity: Group Lab
-Break into your groups. Review the form requirements for your assignment. What validation does the form(s) require? How will you implement it?
+Break into your groups. Review the form requirements for your assignment. 
+- What validation does the form(s) require? 
+- How will you implement it?
+- How do other travel websites handle forms?
 
 ## Resources
 - MDN
