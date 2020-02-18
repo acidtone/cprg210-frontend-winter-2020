@@ -16,7 +16,7 @@
 - [Day 1: Types, Variables and DOM Elements](days/d06/README.md)
 - [Day 2: Events, functions, conditionals, classList](days/d07/README.md)
 - [Day 3: Form Validation](days/d08/README.md)
-- Day 4: 
+- Day 4: Arrays, JSON and DOM Manipulation
 
 ## Resources
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
