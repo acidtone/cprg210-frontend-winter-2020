@@ -138,7 +138,7 @@ Let's code a simple page using the [Lorem Picsum image service](https://picsum.p
     - `section`
       - The jury might still be out. See: [Why You Should Choose HTML5 `article` Over `section`](https://www.smashingmagazine.com/2020/01/html5-article-section/) ([TLDR;](https://www.smashingmagazine.com/2020/01/html5-article-section/#conclusion))
 
-## CSS 101: The Box Model
+## CSS 101: The Box Model {#box-model}
 - The classic box model properties:
   - display
     - Stack Overflow: [Block vs Inline vs Inline-Block](https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block)

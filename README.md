@@ -22,6 +22,20 @@
 - [Free Code Camp](https://www.freecodecamp.org/learn/)
 
 ### HTML/CSS
+- Semantic HTML
+  - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+  - Article: [Why You Should Choose HTML5 `article` Over `section`](https://www.smashingmagazine.com/2020/01/html5-article-section/)
+- Box Model
+  - See [Day 1: Box Model](days/d01/README.md#box-model)
+  - [Block vs Inline vs Inline-Block](https://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block)
 
 ### Javascript
 - [Javascript the Weird Parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+
+### Tools
+- W3C: [HTML Validator](https://validator.w3.org/)
+- W3C: [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- VS Code Extensions
+  - [HTMLLint](https://marketplace.visualstudio.com/items?itemName=mkaufman.HTMLHint)
+- Images
+  - [Lorem Picsum image placeholder service](https://picsum.photos/)
