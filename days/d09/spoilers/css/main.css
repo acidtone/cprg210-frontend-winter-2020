@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400');
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Centre a single element vertically and horizontally on in a viewport */
+.centre-child {
+  min-height: 100vh;
+  display: flex;
+}
+/* Assuming one container item */
+.centre-child > * {
+  margin: auto;
+}
+
+/* Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.centre-inside {
+  text-align: center;
+}

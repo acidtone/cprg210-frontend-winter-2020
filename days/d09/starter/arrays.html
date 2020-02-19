@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating HTML content from arrays</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="centre-child">
+  <main>
+  </main>
+  <script>
+    // we will be adding our content as we go
+    let content = '';
+    // MOST important: a list of puppy names
+    const puppyNames = [
+      'Puddles',
+      'Snuffles',
+      'Rayden Stormlord'
+    ];
+
+    // Step 1: Using array.length, add a statement about how many puppy names are in the list and add it to the content string
+
+    // Step 2: Using array.push(), add another name to the end of the array
+
+    // Step 3: Using array.pop(), remove the nme you just added
+
+    // Step 4: Repeat Steps 2 and 3 using array.unshift() and array.shift() to add and remove a name from the start of the array
+
+    // Step 5: Using bracket notation (like dot notation with objects) change the second name in the array from 'Snuffles' to 'Snowball' 
+
+    // join array elements into an ordered HTML list
+    const list2 = '<ol><li>' + puppyNames.join('</li><li>') + '</li></ol>' ;
+    // append list
+    content += '<section>' + list2 + '</section>'; 
+
+    // assign our container element to a variable
+    const main = document.querySelector('main');
+    // innerHTML will parse the content string as HTML and create the proper elements in the DOM
+    main.innerHTML = content;
+
+    // console.log(main);
+  </script>
+</body>
+</html>

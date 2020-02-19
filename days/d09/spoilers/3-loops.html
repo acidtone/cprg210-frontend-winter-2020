@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a card with object data</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="centre-child">
+  <main class="centre-inside">
+  </main>
+  <script>
+    // Javascript Object: a collection of name:value pairs where the value could be an array, function or another object.
+    const puppies = [
+      {
+        name:     'Rayden Stormlord',
+        colour:   'black (as his heart)',
+        hobbies:  'cuddles'
+      },
+      {
+        name:     'Snowball',
+        colour:   'golden',
+        hobbies:  'shoe demolition'
+      },
+      {
+        name:     'Puddles',
+        colour:   'aqua',
+        hobbies:  'melting hearts'
+      }
+    ]
+
+    // We'll add as we go
+    let content = '';
+    // Loop through each element (puppy) in the array (puppies) and append to content
+    puppies.forEach(function(puppy){
+      // ES6 added template literals - an easier way to concatenate strings
+      content +=  `<article>
+                    <h1>${puppy.name}</h1>
+                    <p>Colour: ${puppy.colour}</p>
+                    <p>Hobbies: ${puppy.hobbies}</p>
+                  </article>`;
+    });
+
+    // assign our container element to a variable
+    const main = document.querySelector('main');
+    // innerHTML will parse the content string as HTML and create the proper elements in the DOM
+    main.innerHTML = content;
+
+    // console.log(main);
+  </script>
+</body>
+</html>

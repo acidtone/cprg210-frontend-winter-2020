@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a card with object data</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="centre-child">
+  <main class="centre-inside">
+  </main>
+  <script>
+    // The best puppy
+    const puppy = {
+      name: 'Rayden Stormlord',
+      colour: 'black (as his heart)',
+      imgURL: 'https://picsum.photos/id/237/200/200'
+    }
+
+    // ES6 added template literals - an easier way to concatenate strings
+    const content =   `<article>
+                        <h1>${puppy.name}</h1>
+                        <p>Colour: ${puppy.colour}</p>
+                        <img src="${puppy.imgURL}" alt="Cutness Attack: ${puppy.name}">
+                      </article>`;
+
+    // assign our container element to a variable
+    const main = document.querySelector('main');
+    // innerHTML will parse the content string as HTML and create the proper elements in the DOM
+    main.innerHTML = content;
+
+    // console.log(main);
+  </script>
+</body>
+</html>

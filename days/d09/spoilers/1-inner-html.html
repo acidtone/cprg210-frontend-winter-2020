@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creating HTML content from arrays</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="centre-child">
+  <main>
+  </main>
+  <script>
+    // we will be adding our content as we go
+    let content = '';
+    // MOST important: a list of puppy names
+    const puppyNames = [
+      'Puddles',
+      'Snuffles',
+      'Rayden Stormlord'
+    ];
+
+    // join array elements into a string, separated by a comma and space
+    const list1 = puppyNames.join(', ');
+    // add list to empty string
+    content += '<section>' + list1 + '</section>';
+
+    // join array elements into an unordered HTML list
+    const list2 = '<ul><li>' + puppyNames.join('</li><li>') + '</li></section>' ;
+    // append list
+    content += '<section>' + list2 + '</section>'; 
+
+    // Display the second puppy name in a heading
+    const heading = '<h1>' + puppyNames[1] + '</h1>';
+    // append heading
+    content += heading;
+
+    // assign our container element to a variable
+    const main = document.querySelector('main');
+    // innerHTML will parse the content string as HTML and create the proper elements in the DOM
+    main.innerHTML = content;
+
+    // console.log(main);
+  </script>
+</body>
+</html>
