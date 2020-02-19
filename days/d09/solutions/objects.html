@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create a card with object data</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="centre-child">
+  <main class="centre-inside">
+  </main>
+  <script>
+    // Step 1: It would be better practice to not embed the image width and height in imgURL. Add two new properties (named 'imageWidth' and 'imageHeight') to 'puppy'. Modify your imgURL to not include width and height values and instead move them to puppy.imageWidth and puppy.imageHeight.
+    const puppy = {
+      name: 'Rayden Stormlord',
+      colour: 'black (as his heart)',
+      imgURL: 'https://picsum.photos/id/237',
+      imageWidth: 200,
+      imageHeight: 200,
+      hobbies: [
+        'playing fetch',
+        'chasing his tail',
+        'naps'
+      ],
+      getImgUrl: function(){
+        return `${this.imgURL}/${this.imageWidth}/${this.imageHeight}`;
+      }
+    }
+
+    // Step 2: Modify this content string to use puppy.imageWidth and puppy.heightHeight in the image's src attribute
+    let content =   `<article>
+                        <h1>${puppy.name}</h1>
+                        <p>Colour: ${puppy.colour}</p>
+                        <img src="${puppy.imgURL}/${puppy.imageWidth}/${puppy.imageHeight}" alt="Cutness Attack: ${puppy.name}">
+                      </article>`;
+
+    // Step 3: Add a puppy.hobbies property that contains an array of Rayden Stormlord's favourite things to do. He's been seen playing fetch and chasing his tail. Naps are pretty huge to puppies.
+
+    // Step 4: Modify the above content string to list Rayden Stormlord's hobbies as an ordered list
+    content = `<article>
+                <h1>${puppy.name}</h1>
+                <p>Colour: ${puppy.colour}</p>
+                <img src="${puppy.imgURL}/${puppy.imageWidth}/${puppy.imageHeight}" alt="Cutness Attack: ${puppy.name}" width="${puppy.imageWidth}" height="${puppy.imageHeight}">
+                <ol><li>${puppy.hobbies.join('</li><li>')}</li></ol>
+              </article>`;
+
+    // Bonus Step: Try adding a method (i.e. a function) to puppy that returns the original imgURL containing width and height values. Maybe name it getImgUrl?
+    content = `<article>
+                <h1>${puppy.name}</h1>
+                <p>Colour: ${puppy.colour}</p>
+                <img src="${puppy.getImgUrl()}" alt="Cutness Attack: ${puppy.name}" width="${puppy.imageWidth}" height="${puppy.imageHeight}">
+                <ol><li>${puppy.hobbies.join('</li><li>')}</li></ol>
+              </article>`;
+
+    // assign our container element to a variable
+    const main = document.querySelector('main');
+    // innerHTML will parse the content string as HTML and create the proper elements in the DOM
+    main.innerHTML = content;
+
+    // console.log(main);
+  </script>
+</body>
+</html>
