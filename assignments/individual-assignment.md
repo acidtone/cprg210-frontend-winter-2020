@@ -19,11 +19,10 @@ This assignment will be marked out of 30 points and will be worth 50% of the fro
   - Display a gallery of travel pictures below the hero section (see Javascript section).
   - In a `footer` at the bottom of the page, display copyright information (hint: search for html entities and/or icon fonts to find a copyright symbol).
 - Javascript
-  - Put a script tag in the head section of your main page and create an array of objects (limit this to a reasonable number, perhaps 5 or 6 items). When the body of the page loads, loop through the array (i.e. using `array.forEach` or similar), get each object and add an image with description/link to a grid or flexbox gallery. Each object will define 
+  - On your main page, create an array of objects (limit this to a reasonable number, perhaps 5 or 6 items). When the body of the page loads, loop through the array (i.e. using `array.forEach` or similar), get each object and add an image with description/link to a grid or flexbox gallery. Each object will define 
     - the image `src` URL
     - description of a popular travel destination. 
     - link URL that will open an external website (in a new window/tab) relating to the image
-  - Extra points: If you already have JavaScript experience and the basic stuff is boring to you, try one of these for extra challenge:
 
 ### contact.html
 - HTML/CSS
@@ -48,7 +47,8 @@ This assignment will be marked out of 30 points and will be worth 50% of the fro
 - Each page should have the same global navigation using `nav`, `ul`, `li` and `a` tags to link each page to each other. Include your logo somewhere in the navigation (note: it doesn't necessarily need to be in your nav list).
 - Define style settings that will set the font family, size, and color of the text in your tags. You are free to use a font service for this.
 - Create an external stylesheet file and `link` it into your pages to provide custom style settings.
- - Bonus points: Download and `link` to an external stylesheet page that will reset your styles to defaults (hint: normalize.css is a popular option)
+- Include all javascript as an external script, either in the `head` or before the ending `body` tag.
+- Bonus points: Download and `link` to an external stylesheet page that will reset your styles to defaults (hint: normalize.css is a popular option)
 
 ## Marking Rubric
 Hand in your source code files by saving them in a .zip file and dropping it into the drop folder on Brightspace.
