@@ -19,8 +19,6 @@
 - [Day 4: Arrays, Objects and DOM Manipulation](days/d09/README.md)
 
 ## Resources
-- [Free Code Camp](https://www.freecodecamp.org/learn/)
-
 ### HTML/CSS
 - Semantic HTML
   - MDN: [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
