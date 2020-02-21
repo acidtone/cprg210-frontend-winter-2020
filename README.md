@@ -66,6 +66,7 @@
     - Article: [Flexbox's Best Kept Secret](https://hackernoon.com/flexbox-s-best-kept-secret-bd3d892826b6)
     - Search: [Top Flexbox articles on CSS Tricks](https://css-tricks.com/?s=flex&orderby=relevance&post_type=post%2Cpage%2Cguide)
   - CSS Grid
+    - See [Day 3](days/d03/README.md)
     - Reference: [Complete Guide to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
     - Article: [Basic concepts of Grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
     - Learning Game: [CSS Grid Garden](https://cssgridgarden.com/)
