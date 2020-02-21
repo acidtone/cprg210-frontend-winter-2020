@@ -85,6 +85,7 @@
     - See [Day 3](days/d03/README.md)
     - Video: [HTML Forms Crash Course Tutorial](https://www.youtube.com/watch?v=YwbIeMlxZAU)
     - Article: [58 Form Design Best Practices & Form UX Examples](https://www.ventureharbour.com/form-design-best-practices/)
+    - Article: [Options for Handling Static Form Submissions](https://www.freecodecamp.org/news/handling-static-forms-the-client-side-way/)
   - Design Patterns
     - Article: [Exploring the Hero Image Trend in Web Design](https://envato.com/blog/exploring-hero-image-trend-web-design/)
 - Responsive Patterns
@@ -100,8 +101,34 @@
     - Article (2010): [How To Use Media Queries To Create a Mobile Version of Your Website](https://www.smashingmagazine.com/2010/07/how-to-use-css3-media-queries-to-create-a-mobile-version-of-your-website/)
 
 ### Javascript
--  More links coming soon
+- Free Code Camp: [Introduction to Javascript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/)
 - [Javascript the Weird Parts](https://www.youtube.com/watch?v=Bv_5Zv5c-Ts)
+- DOM Manipulation
+  - See [Day 6](days/d06/README.md) and [Day 9](days/d09/README.md)
+  - [`innerHTML` vs `innerText` and `textContent` properties](https://stackoverflow.com/questions/24427621/innertext-vs-innerhtml-vs-label-vs-text-vs-textcontent-vs-outertext)
+- Events
+  - See [Day 7](days/d07/README.md)
+  - [MDN Event Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
+  - [DOM onevent handlers](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Event_handlers)
+- CSS Manipulation
+  - [Class List (classList) Property](https://www.youtube.com/watch?v=XYzSyPlY7_E)
+- Forms
+  - See [Day 8](days/d08/README.md)
+  - MDN
+    - [Your First HTML Form](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
+    - [Client-side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
+  - [button vs input](https://stackoverflow.com/questions/37736056/button-type-button-vs-submit)
+  - [UI Pseudo-classes](https://developer.mozilla.org/en-US/docs/Learn/Forms/UI_pseudo-classes)
+  - [Marking a field `:invalid` using Javascript](https://stackoverflow.com/questions/10777970/can-i-mark-a-field-invalid-from-javascript)
+  - Article: [Form Validation with Javascript](https://www.the-art-of-web.com/javascript/validate/)
+  - Video: [Form Validation with Javascript](https://www.youtube.com/watch?v=8cb4auJt1TA)
+- Arrays: 
+  - See [Day 9](days/d09/README.md)
+  - [Working with Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Objects: 
+  - See [Day 9](days/d09/README.md)
+  - [Working with Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+- Dates: [Everything You Need to Know About Date in JavaScript](https://css-tricks.com/everything-you-need-to-know-about-date-in-javascript/) 
 
 ### Tools
 - W3C: [HTML Validator](https://validator.w3.org/)
